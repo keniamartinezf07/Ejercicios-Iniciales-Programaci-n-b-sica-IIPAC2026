@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int inicio, fin;
+
+    cout << "Ingrese el valor inicial: ";
+    cin >> inicio;
+
+    cout << "Ingrese el valor final: ";
+    cin >> fin;
+
+    for (int i = inicio; i <= fin; i++) {
+        cout << i << endl;
+    }
+
+    return 0;
+}
